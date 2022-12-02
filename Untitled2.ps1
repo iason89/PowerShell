@@ -1,0 +1,1 @@
+﻿Invoke-Command -ComputerName LON-SVR1 -ScriptBlock {Set-NetFirewallProfile -All -Enabled false}
